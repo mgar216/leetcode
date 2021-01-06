@@ -13,7 +13,6 @@ class Solution:
             '{':'}',             
                 }
         tracking = []
-        last = -1
         for i in s:
             if i in match.keys():
                 tracking.append(i)
