@@ -19,7 +19,4 @@ class Solution:
             else:
                 if not tracking or match[tracking.pop()] != i:
                     return False
-        if not tracking:
-            return True
-        else:
-            return False
+        return not tracking
