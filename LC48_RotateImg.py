@@ -10,6 +10,4 @@ class Solution:
         matrix.reverse()
         for i in range(len(matrix)):
             for j in range(i):
-                holder = matrix[i][j]
-                matrix[i][j] = matrix[j][i]
-                matrix[j][i] = holder 
+                matrix[i][j], matrix[j][i] = matrix[j][i], matrix[i][j]
