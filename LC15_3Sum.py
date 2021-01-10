@@ -1,5 +1,5 @@
 '''
-Runtime: 5068 ms, faster than 5.48% of Python3 online submissions for 3Sum.
+Runtime: 4392 ms, faster than 7.22% of Python3 online submissions for 3Sum.
 Memory Usage: 17.5 MB, less than 48.86% of Python3 online submissions for 3Sum.
 '''
 class Solution:
@@ -11,6 +11,7 @@ class Solution:
         storage = []
         nums = sorted(nums)
         for i in nums:
+            if i > 0: continue
             while b < c:
                 sumtotal = i + nums[b] + nums[c]
                 if sumtotal < 0:
