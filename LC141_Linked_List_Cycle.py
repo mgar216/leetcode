@@ -22,7 +22,7 @@ class Solution:
 """
 Runtime: 44 ms, faster than 89.89% of Python3 online submissions for Linked List Cycle.
 Memory Usage: 17.2 MB, less than 67.21% of Python3 online submissions for Linked List Cycle.
-Uses Tortoise and Hare pointers (Cycle detection algorithm) to detect cycles—keeps O(1) space complexity.
+Uses Floyd's Tortoise and Hare (Cycle detection algorithm) to detect cycles—keeps O(1) space complexity.
 https://en.wikipedia.org/wiki/Cycle_detection
 """
 # Definition for singly-linked list.
